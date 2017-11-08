@@ -3,6 +3,7 @@ package edu.monash.monplan.config;
 import com.googlecode.objectify.ObjectifyService;
 import edu.monash.monplan.model.Course;
 import edu.monash.monplan.model.Unit;
+import edu.monash.monplan.model.Transaction;
 import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
@@ -21,6 +22,7 @@ public class ObjectifyConfig implements ServletContextListener {
     private void registerObjectifyEntities() {
         register(Unit.class);
         register(Course.class);
+        register(Transaction.class);
     }
 
 

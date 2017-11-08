@@ -6,8 +6,6 @@ import com.threewks.gaetools.search.Is;
 import com.threewks.gaetools.search.Result;
 import com.threewks.gaetools.search.Search;
 import com.threewks.gaetools.search.gae.SearchConfig;
-import edu.monash.monplan.model.Course;
-import org.monplan.abstraction_layer.DataModel;
 
 import java.util.ArrayList;
 import java.util.List;
